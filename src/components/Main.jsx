@@ -1,17 +1,15 @@
-import React, { Fragment } from 'react'
-import Body from './body/Body'
-import Footer from './footer/Footer'
-import Header from './header/Header'
+import Body from './body/Body';
+import Footer from './footer/Footer';
+import Header from './header/Header';
 
-const Main = () => {
+function Main() {
   return (
-    <Fragment>
-    <Header />
-    <Body />
-    <Footer />
-    </Fragment>
-     
-  )
+    <>
+      <Header />
+      <Body />
+      <Footer />
+    </>
+  );
 }
 
-export default Main
+export default Main;
